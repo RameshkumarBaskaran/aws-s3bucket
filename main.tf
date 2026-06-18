@@ -1,7 +1,7 @@
 module "s3_bucket" {
   source = "terraform-aws-modules/s3-bucket/aws"
 
-  bucket = "my-s3-bucket-June2026"
+  bucket = "ramesh2805-terraform-demo-bucket-2026"
   acl    = "private"
 
   control_object_ownership = true
